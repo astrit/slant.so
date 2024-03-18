@@ -86,4 +86,8 @@ https://turbo.build/repo/docs/handbook/publishing-packages/versioning-and-publis
 Changset cli
 https://github.com/changesets/changesets/blob/main/packages/cli/README.md
 
+<!-- npm adduser -->
+<!-- npm login -->
+<!-- npm config set registry http://registry.npmjs.org -->
+<!-- changeset publish -->
 <!-- "publish-packages": "turbo run build lint test && changeset version && changeset publish", -->
