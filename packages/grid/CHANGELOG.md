@@ -1,4 +1,4 @@
-# @slant/grid
+# @slant.so/grid
 
 ## 0.1.0
 

@@ -1,4 +1,4 @@
-# @slant/core
+# @slant.so/core
 
 ## 0.1.0
 

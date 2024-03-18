@@ -1,4 +1,4 @@
-# @slant/vars
+# @slant.so/vars
 
 ## 0.1.0
 
