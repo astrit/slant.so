@@ -79,3 +79,11 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+Publishing
+https://turbo.build/repo/docs/handbook/publishing-packages/versioning-and-publishing
+
+Changset cli
+https://github.com/changesets/changesets/blob/main/packages/cli/README.md
+
+<!-- "publish-packages": "turbo run build lint test && changeset version && changeset publish", -->
