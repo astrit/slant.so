@@ -33,6 +33,12 @@ export default function Page(): JSX.Element {
       </div>
 
       <small>Scheduled for Release in 2024</small>
+
+      <cite>
+        <code>
+          S L Λ <strong>&#65128;</strong> T
+        </code>{" "}
+      </cite>
     </main>
   );
 }
