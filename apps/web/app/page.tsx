@@ -32,13 +32,14 @@ export default function Page(): JSX.Element {
         </footer>
       </div>
 
-      <small>Scheduled for Release in 2024</small>
-
-      <cite>
-        <code>
-          S L Λ <strong>&#65128;</strong> T
-        </code>{" "}
-      </cite>
+      <small>
+        <cite>
+          <code>
+            S L Λ <strong>&#65128;</strong> T
+          </code>
+        </cite>
+        {" — "} Scheduled for Release in 2024
+      </small>
     </main>
   );
 }

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://slant.so"),
   title: {
-    default: "Slant · Design System",
+    default: "S L Λ﹨T · Design System",
     template: "%s · Slant",
   },
   description: "",
