@@ -1,10 +1,20 @@
-import type { Metadata } from "next";
+import React, { Suspense } from "react"
+import type { Metadata } from "next"
+import Favicon from "@/fav/fav"
+import Preloader from "@/preloader/preloader"
+import { Analytics } from "@vercel/analytics/react"
+import Article from "&/article/article"
+import Main from "&/main/main"
+import Fonts from "$/fonts/fonts"
+import { Provider } from "$/provider"
+
+import "#/global.css"
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://slant.so"),
   title: {
-    default: "S L Λ﹨T · Design System",
-    template: "%s · Slant",
+    default: "S L Λ﹨T",
+    template: "%s · Slant Design System",
   },
   description: "",
   openGraph: {
@@ -16,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `https://slant.so/og?title=Lona`,
+        url: `https://slant.so/og?title=CSS UI`,
       },
     ],
   },
@@ -31,16 +41,33 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-};
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
-}): JSX.Element {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <Suspense fallback={<Preloader />}>
+          <Provider
+            attribute="theme"
+            defaultTheme="dark"
+            enableColorScheme={false}
+            enableSystem={true}
+          >
+            <Favicon />
+            <Fonts>
+              <Main>
+                <Article>{children}</Article>
+              </Main>
+            </Fonts>
+          </Provider>
+        </Suspense>
+        <Analytics />
+      </body>
     </html>
-  );
+  )
 }
