@@ -1,7 +1,7 @@
 {
   "name": "@slant.so/core",
   "version": "0.2.0",
-  "private": false,
+  "public": true,
   "author": {
     "name": "astrit",
     "email": "am@astrit.co",
