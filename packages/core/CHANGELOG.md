@@ -1,5 +1,11 @@
 # @slant.so/core
 
+## 0.3.0
+
+### Minor Changes
+
+- Add Flex, Grid and more
+
 ## 0.2.0
 
 ### Minor Changes
