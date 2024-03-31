@@ -1,5 +1,11 @@
 # @slant.so/core
 
+## 0.4.0
+
+### Minor Changes
+
+- Add tokens
+
 ## 0.3.0
 
 ### Minor Changes

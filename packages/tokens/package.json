@@ -1,6 +1,6 @@
 {
-  "name": "@slant.so/core",
-  "version": "0.4.0",
+  "name": "@slant.so/tokens",
+  "version": "0.2.0",
   "public": true,
   "author": {
     "name": "astrit",
@@ -8,8 +8,7 @@
     "url": "https://astrit.co"
   },
   "exports": {
-    "./code": "./src/code.tsx",
-    "./grid": "./src/grid.tsx"
+    "./tokens": "./src/tokens.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
