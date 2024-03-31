@@ -8,6 +8,8 @@
     "url": "http://astrit.co"
   },
   "exports": {
+    "./flex": "./src/flex.tsx",
+    "./grid": "./src/grid.tsx",
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
     "./code": "./src/code.tsx"
