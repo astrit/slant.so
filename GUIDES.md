@@ -92,3 +92,5 @@ https://github.com/changesets/changesets/blob/main/packages/cli/README.md
 <!-- changeset publish -->
 <!-- "publish-packages": "turbo run build lint test && changeset version && changeset publish", -->
 <!-- https://support.github.com/ticket/personal/0/2681609 -->
+
+<!-- yarn changeset version -->
