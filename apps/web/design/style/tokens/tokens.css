@@ -61,14 +61,6 @@
   --slant-color-accent-600-50: rgba(253, 224, 59, 0.5);
   --slant-color-accent-600-80: rgba(253, 224, 59, 0.8);
 
-  /* Color - Secondary */
-  --slant-color-brand-lona: #FFDE5D;
-  --slant-color-brand-css: #5115BC;
-  --slant-color-brand-gona: #DDB62D;
-  --slant-color-brand-adra: #EF761C;
-  --slant-color-brand-pivofy: #3D1887;
-  --slant-color-brand-cards: #D5FCD5;
-
   /* Border - Radius */
   --slant-border-radius-00: var(--slant-size-00);
   --slant-border-radius-02: var(--slant-size-02);
@@ -138,6 +130,5 @@
   --slant-device-desktop-sm: 1024px;
   --slant-device-tablet: 768px;
   --slant-device-mobile: 425px;
-
 
 }
