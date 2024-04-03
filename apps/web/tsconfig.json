@@ -5,7 +5,30 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@/*": [
+        "./design/block/*"
+      ],
+      "#/*": [
+        "./design/style/*"
+      ],
+      "&/*": [
+        "./design/layout/*"
+      ],
+      "m/*": [
+        "./design/mdx/*"
+      ],
+      "$/*": [
+        "./utils/*"
+      ],
+      "~/*": [
+        "./data/*"
+      ],
+      "content": [
+        "./.contentlayer/generated"
+      ],
+    }
   },
   "include": [
     "next-env.d.ts",
