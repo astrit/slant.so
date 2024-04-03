@@ -4,14 +4,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2lh;
+    gap: 4lh;
     padding: calc(var(--slant-size-52) * 2);
     font-family: var(--font-manrope);
     font-size: 1vw;
 
     h1 {
       font-size: 5vw;
-      letter-spacing: 0.2ch;
+      display: flex;
+      align-items: center;
+      gap: 0.6ch;
+      font-weight: 600;
     }
 
     min-height: 100vh;
@@ -19,7 +22,8 @@
     footer {
       display: flex;
       align-items: center;
-      gap: 1ch;
+      gap: 4ch;
+      font-size: calc(1vw * 0.8);
       div {
         opacity: 0.4;
       }
