@@ -29,11 +29,8 @@
   --slant-size-99: calc(infinity * 1px);
 
   /* Color - Scheme */
-  --slant-color-scheme: dark;
-  &[theme="auto"]  { --slant-color-scheme: auto;}
-  &[theme="light"] { --slant-color-scheme: light;}
-  &[theme="dark"]  { --slant-color-scheme: dark;}
-  color-scheme: var(--slant-color-scheme, dark);
+  color-scheme: dark;
+  &[theme="light"] { color-scheme: light; }
 
   /* Color - Neutral */
   --slant-color-neutral-100: light-dark(#000000,#ffffff);
