@@ -24,7 +24,7 @@ export default function Header() {
         <Nav />
       </Left>
       <small></small>
-      <Right>{path !== "/about" && <Link href="/about">~ 2024</Link>}</Right>
+      <Right>{path !== "/about" && <Link href="/">~ 2024</Link>}</Right>
     </header>
   )
 }
