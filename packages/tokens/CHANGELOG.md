@@ -1,4 +1,4 @@
-# @slant.so/tokens
+# @slant/tokens
 
 ## 0.2.0
 

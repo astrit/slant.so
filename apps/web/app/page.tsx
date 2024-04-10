@@ -20,6 +20,7 @@ export default function Page(): JSX.Element {
           <Link href="https://astrit.co">{`IIIIII`}</Link>
         </span>
       </footer>
+      <code>npm i @slant/core</code>
     </Home>
   )
 }
