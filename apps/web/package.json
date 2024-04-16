@@ -9,12 +9,13 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
+    "@figma/code-connect": "^0.1.0",
     "@slant/core": "*",
+    "@vercel/analytics": "^1.1.2",
     "next": "^14.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "next-themes": "^0.2.1",
-    "@vercel/analytics": "^1.1.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",
